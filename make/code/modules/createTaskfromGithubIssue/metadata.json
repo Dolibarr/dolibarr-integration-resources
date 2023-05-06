@@ -1,0 +1,8 @@
+{
+    "name": "createTaskfromGithubIssue",
+    "label": "task creation",
+    "description": "Creation of a project task when a Github issue is created",
+    "connection": "dolibarr-connection",
+    "webhook": null,
+    "type": "action"
+}

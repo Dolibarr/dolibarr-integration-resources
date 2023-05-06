@@ -1,0 +1,38 @@
+[
+    {
+        "name": "label",
+        "label": "Event name",
+        "type": "text",
+        "required": true
+    },
+    {
+        "name": "datep",
+        "label": "Start time",
+        "type": "date",
+        "required": true
+    },
+    {
+        "name": "datef",
+        "label": "End time",
+        "type": "date",
+        "required": true
+    },
+    {
+        "name": "location",
+        "label": "Location",
+        "type": "text",
+        "required": false
+    },
+    {
+        "name": "note_private",
+        "label": "Description",
+        "type": "text",
+        "required": false
+    },
+    {
+        "name": "email",
+        "type": "email",
+        "label": "Email address",
+        "required": true
+    }
+]

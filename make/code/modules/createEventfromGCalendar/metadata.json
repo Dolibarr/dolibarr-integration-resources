@@ -1,0 +1,8 @@
+{
+    "name": "createEventfromGCalendar",
+    "label": "create an event on Dolibarr agenda",
+    "description": "create an event when an event is created on Google Calendar",
+    "connection": "dolibarr-connection",
+    "webhook": null,
+    "type": "action"
+}

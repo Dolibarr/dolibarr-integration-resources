@@ -1,0 +1,12 @@
+{
+    "url": "{{parameters.hostname}}/api/index.php/users/info",
+    "headers": {
+        "DOLAPIKEY": "{{parameters.apiKey}}",
+        "USEROWNERID": "{{parameters.userownerid}}"
+    },
+    "log": {
+        "sanitize": [
+            "request.headers.DOLAPIKEY"
+        ]
+    }
+}

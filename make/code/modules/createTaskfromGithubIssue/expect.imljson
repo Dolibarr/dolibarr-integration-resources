@@ -1,0 +1,44 @@
+[
+    {
+        "name": "creator",
+        "type": "text",
+        "label": "Task created by:",
+        "required": true
+    },
+    {
+        "name": "taskName",
+        "type": "text",
+        "label": "Name of task",
+        "required": true
+    },
+    {
+        "name": "date_creation",
+        "type": "date",
+        "label": "Date of creation",
+        "required": true
+    },
+    {
+        "name": "date_start",
+        "type": "date",
+        "label": "Date of start",
+        "required": true
+    },
+    {
+        "name": "projectID",
+        "type": "text",
+        "label": "Project ID",
+        "required": true
+    },
+    {
+        "name": "date_end",
+        "type": "date",
+        "label": "Date of end",
+        "required": true
+    },
+    {
+        "name": "taskref",
+        "type": "text",
+        "label": "Ref of task",
+        "required": true
+    }
+]

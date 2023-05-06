@@ -1,0 +1,8 @@
+[
+    {
+        "name": "type",
+        "type": "text",
+        "label": " Type",
+        "value": "Email reception"
+    }
+]

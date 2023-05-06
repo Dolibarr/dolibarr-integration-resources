@@ -1,0 +1,8 @@
+{
+    "name": "createEventfromEmail",
+    "label": "Create an Event",
+    "description": "Create an event when receiving an email",
+    "connection": "dolibarr-connection",
+    "webhook": null,
+    "type": "action"
+}
