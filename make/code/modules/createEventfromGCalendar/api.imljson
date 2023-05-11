@@ -1,0 +1,28 @@
+{
+    "url": "{{connection.hostname}}/api/index.php/agendaevents",
+    "method": "POST",
+    "qs": {},
+    "body": {
+        "type": "Event creation",
+        "label": "{{parameters.label}}",
+        "type_code": 6,
+        "userownerid": "{{connection.userownerid}}",
+        "date_creation": "{{parameters.date}}",
+        "datep": "{{parameters.datep}}",
+        "datef": "{{parameters.datef}}",
+        "location": "{{parameters.location}}",
+        "note_private": "{{parameters.note_private}}",
+        "email_sender": "{{parameters.name}}",
+        "email_from": "{{lower(parameters.email)}}",
+        "percentage": "-1",
+        "status": "0"
+    },
+    "headers": {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "DOLAPIKEY": "{{connection.apiKey}}"
+    },
+    "response": {
+        "output": "{{body}}"
+    }
+}

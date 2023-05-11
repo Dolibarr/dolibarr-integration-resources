@@ -1,0 +1,21 @@
+{
+    "url": "{{connection.hostname}}/api/index.php/tasks",
+    "method": "POST",
+    "qs": {},
+    "body": {
+        "label": "{{parameters.taskName}}",
+        "fk_project": "{{parameters.projectID}}",
+        "date_start": "{{parameters.date_start)}}",
+        "date_end": "{{parameters.date_end)}}",
+        "user_creation": "{{parameters.creator)}}",
+        "date_creation": "{{parameters.date_creation)}}",
+        "fk_user_creat": "{{connection.userownerid}}",
+        "ref": "{{parameters.taskref}}"
+    },
+    "headers": {
+        "DOLAPIKEY": "{{connection.apiKey}}"
+    },
+    "response": {
+        "output": "{{body}}"
+    }
+}

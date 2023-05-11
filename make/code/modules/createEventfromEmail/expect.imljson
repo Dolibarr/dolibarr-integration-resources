@@ -1,0 +1,26 @@
+[
+    {
+        "name": "email",
+        "type": "email",
+        "label": "Email address",
+        "required": true
+    },
+    {
+        "name": "name",
+        "type": "text",
+        "label": "Name",
+        "required": true
+    },
+    {
+        "name": "label",
+        "type": "text",
+        "label": "Mail label",
+        "required": true
+    },
+    {
+        "name": "date",
+        "type": "date",
+        "label": "Received on",
+        "required": true
+    }
+]
