@@ -10,7 +10,7 @@ L'entreprise a un outil de facturation / suivi développée sur ACCESS.
 
 ## Solution
 
-Lecture des fichiers MDB à l'aide de ADBC -> mauvaise idée
+Lecture des fichiers MDB à l'aide de ODBC -> mauvaise idée
 
 Solution : utlisation des mdb-tools pour convertir le fichier mdb vers autre chose utilisable.
  - 1ere utilisation : convert mdb to json -> lourd pour les traitements suivants
