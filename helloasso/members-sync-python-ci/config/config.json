@@ -1,0 +1,6 @@
+{
+    "max_pages": 100,
+    "min_diff_days": 4,
+    "max_sync_days": 30,
+    "membership_duration_days": 365
+}

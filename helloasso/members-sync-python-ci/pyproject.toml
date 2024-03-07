@@ -1,0 +1,30 @@
+[project]
+name = "hello_doli_gateway"
+version = "0.0.1"
+authors = [
+  { name="Yoan Mollard", email="opensource@eirlab.net" },
+]
+dependencies = ["requests", "unidecode"]
+description = "Import HelloAsso members to Dolibarr using their respective REST API"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPL-3)",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Non-Profit Organizations",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Office/Business",
+    "Framework :: Dolibarr",
+    "Framework :: HelloAsso",
+    "Programming Language :: Python",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.eirlab.net/automation/helloasso-memberships-to-dolibarr"
+"Bug Tracker" = "https://gitlab.eirlab.net/automation/helloasso-memberships-to-dolibarr/-/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
