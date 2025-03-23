@@ -96,6 +96,8 @@ class HelloAssoMembersAPI:
         hello_dict = {}
         num_hello_duplicates = 0
         for hellom in hellomem:
+            if "user" not in hellom:
+                continue
             full_name = crush(hellom['user']['firstName']) + crush(hellom['user']['lastName'])
             if full_name in hello_dict:
                 num_hello_duplicates += 1
